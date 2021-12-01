@@ -17,7 +17,7 @@ namespace Lab15
             arith1.reset();
             GeomProgression geom1 = new GeomProgression(2,6);
             geom1.setStart(6);
-            geom1.getNext();
+            Console.WriteLine(geom1.getNext());
             geom1.reset();
             Console.ReadKey();
 
